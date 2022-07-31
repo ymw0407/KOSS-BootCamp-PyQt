@@ -9,7 +9,7 @@
 ### 기존의 파이썬은?
 기존의 파이썬으로는 TUI(Text-based User Interface), 즉 결과를 text로만 출력을 하는 방식으로 결과를 출력해왔다.
 ```python
---> print("Hello World!")
+print("Hello World!")
 Hello World!
 ```
 
@@ -24,4 +24,8 @@ GUI(Graphical User Interface), 즉 우리가 사용하는 윈도우 창과 같�
 ## How to install PyQt5?
 ```bash
 $ pip install PyQt5
+```
+### 오류
+```python
+qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it was found.
 ```
