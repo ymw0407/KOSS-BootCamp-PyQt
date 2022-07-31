@@ -1,7 +1,8 @@
 # KOSS-BootCamp-PyQt
 BootCamp 자료
 
-# PyQt install
+# How to install PyQt5?
+터미널에  
 ```bash
 pip install PyQt5
 ```
