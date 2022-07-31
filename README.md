@@ -18,6 +18,7 @@ GUI(Graphical User Interface), 즉 우리가 사용하는 윈도우 창과 같�
 
 ### PyQt의 특징
 - TkInter와는 다르게 추가적인 모듈 설치가 필요하다. [설치 방법](https://github.com/ymw0407/KOSS-BootCamp-PyQt/blob/main/README.md#how-to-install-pyqt5) 
+- Qt라는 GUI 프로그램 개발에 널리 사용되는 크로스 플랫폼 프레임워크(<img src="https://img.shields.io/badge/c++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/></a>)를 
 
 ## How to install PyQt5?
 ```bash
