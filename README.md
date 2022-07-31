@@ -7,8 +7,13 @@
 ## What is PyQt5?  
 
 ### 기존의 파이썬은?
+기존의 파이썬으로는 TUI(Text-based User Interface), 즉 결과를 text로만 출력을 하는 방식으로 결과를 출력해왔다.
+```python
+--> print("Hello World!")
+Hello World!
+```
 
-
+### 그러면 PyQt는?
 GUI(Graphical User Interface), 즉 우리가 사용하는 윈도우 창과 같은 그래픽 요소를 통해 사용자와 컴퓨터 간의 인터페이스를 구현한 방식이다.
 
 ## How to install PyQt5?
