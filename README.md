@@ -4,5 +4,5 @@
 
 ## How to install PyQt5?
 ```bash
-pip install PyQt5
+$ pip install PyQt5
 ```
