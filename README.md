@@ -1,5 +1,5 @@
 # KOSS-BootCamp-PyQt
 BootCamp 자료
 
-#PyQt install
+# PyQt install
 pip install PyQt5
