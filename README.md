@@ -25,10 +25,11 @@ GUI(Graphical User Interface), 즉 우리가 사용하는 윈도우 창과 같�
 ```bash
 $ pip install PyQt5
 ```
-### 해당 오류 발생시...
+### Run 했을 때 다음과 같은 오류가 발생한다...
 ```python
 qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it was found.
 ```
+위와 같은 오류가 발생하면, 다음과 같이 
 ```bash
 $ apt install libxcb-xinerama0
 ```
