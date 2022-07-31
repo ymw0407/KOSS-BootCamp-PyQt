@@ -17,7 +17,7 @@ Hello World!
 GUI(Graphical User Interface), 즉 우리가 사용하는 윈도우 창과 같은 그래픽 요소를 통해 사용자와 컴퓨터 간의 인터페이스를 구현한 방식이다. wxPython, TkInter, PyQt 등의 GUI 모듈일 있지만, 우리는 PyQt를 사용해보고자 한다.
 
 ### PyQt의 특징
-- TkInter와는 다르게 추가적인 모듈 설치가 필요하다 
+- TkInter와는 다르게 추가적인 모듈 설치가 필요하다. [설치 방법](https://github.com/ymw0407/KOSS-BootCamp-PyQt/blob/main/README.md#how-to-install-pyqt5) 
 
 ## How to install PyQt5?
 ```bash
