@@ -29,7 +29,8 @@ $ pip install PyQt5
 ```python
 qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it was found.
 ```
-위와 같은 오류가 발생하면, 다음과 같이 
+위와 같은 오류가 발생하면, 다음과 같이 설치해주면 된다.
 ```bash
 $ apt install libxcb-xinerama0
 ```
+
