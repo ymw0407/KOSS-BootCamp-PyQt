@@ -2,6 +2,6 @@
 BootCamp 자료
 
 # PyQt install
-'''bash
+```bash
 pip install PyQt5
-'''
+```
