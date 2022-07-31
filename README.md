@@ -29,7 +29,6 @@ $ pip install PyQt5
 ```python
 qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it was found.
 ```
-<br/>
 ```bash
 $ apt install libxcb-xinerama0
 ```
