@@ -68,6 +68,7 @@ class Lotto(QWidget):
     def random(self):
         if self.cnt == 6:
             self.cnt = 0
+            self.lotto_num = ["00", "00", "00", "00", "00", "00"]
 
         ball = str(random.randint(1, 46))
         if len(ball) == 1:
