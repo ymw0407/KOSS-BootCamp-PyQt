@@ -70,9 +70,13 @@ class Lotto(QWidget):
             self.cnt = 0
             self.lotto_num = ["00", "00", "00", "00", "00", "00"]
 
-        ball = str(random.randint(1, 46))
-        if len(ball) == 1:
-            ball = "0" + ball
+        while True:
+            ball = str(random.randint(1,46))
+            if len(ball) == 1:
+                ball = "0" + ball
+            if ball not in self.lotto_num:
+                break
+
         self.lotto_num[self.cnt] = ball
         print(ball)
         self.label.setText(ball)
@@ -85,7 +89,7 @@ class Lotto(QWidget):
         self.num6.setText(self.lotto_num[5])
 
         self.cnt += 1
-        print(self.cnt)
+        print("*"+str(self.cnt))
 
     def close(self):
         return QCoreApplication.instance().quit()
