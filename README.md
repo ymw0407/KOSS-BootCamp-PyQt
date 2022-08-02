@@ -33,6 +33,7 @@ qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it 
 ```bash
 $ apt install libxcb-xinerama0
 ```
+-------------------------------------------------------------------------------------------------------------------------
 
 # MongoDB와 Python 연결하기!
 
