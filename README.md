@@ -36,7 +36,7 @@ $ apt install libxcb-xinerama0
 -------------------------------------------------------------------------------------------------------------------------
 # PyQt에서 Matplotlib 사용하기
 
-### 링크(https://codetorial.net/articles/matplotlib_in_pyqt5.html)
+### [링크](https://codetorial.net/articles/matplotlib_in_pyqt5.html)
 
 
 # MongoDB와 Python 연결하기!
