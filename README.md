@@ -56,12 +56,12 @@ $ pip install dnspython
 ```python
 from pymongo import MongoClient
 
-client = MongoClient("mongodb+srv://yun1211:yunbird1211@cluster0.qypul.mongodb.net/Cluster0?retryWrites=true&w=majority")
+client = MongoClient("mongodb+srv://jjunh33:aofhs31@cluster0.iwc5u.mongodb.net/?retryWrites=true&w=majority")
 
-db = client['Sensor']
+db = client['test'] # test라는 이름의 데이터베이스에 접속
 
 for d, cnt in zip(db['sensors'].find(), range(10)):
-    print(d['pm1'], d['pm10'])
+    print(d['pm2'])
 ```
 DB에 데이터 넣는 실습을 안해보신 분은 우선 제것을 사용하여 실습하셔도 좋습니다!
 <br/>
